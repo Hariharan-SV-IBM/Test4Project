@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Test4Project
+  gitServerName: git
+  gitUrl: https://github.com/Hariharan-SV-IBM
+  gitUsername: Hariharan-SV-IBM
+  gitBranch: main
