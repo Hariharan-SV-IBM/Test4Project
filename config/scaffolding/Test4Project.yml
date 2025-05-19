@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/Hariharan-SV-IBM
   gitUsername: Hariharan-SV-IBM
   gitBranch: main
+services:
+- serviceName: project.test4.integrations:testDAF
+  packages:
+  - name: Test4Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
+- serviceName: project.test4.referencedata:t1
+  packages:
+  - name: Test4Project
+    version: "1.0"
