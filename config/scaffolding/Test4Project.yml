@@ -16,6 +16,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2055
+- serviceName: pub.math:randomDouble
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
 - serviceName: project.test4.referencedata:t1
   packages:
   - name: Test4Project
