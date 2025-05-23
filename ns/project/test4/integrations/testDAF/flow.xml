@@ -9,7 +9,7 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="Math" SERVICE="pub.math:randomDouble">
+<INVOKE NAME="Math" SERVICE="pub.math:randomDouble" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
